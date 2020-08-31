@@ -6,16 +6,14 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int workTime;
-
         System.out.println("Gib eine Zahl zwischen 0 & 24 ein");
-        workTime = sc.nextInt();
+        int workTime = sc.nextInt();
 
-        if(workTime == 12){
+        if (workTime == 12) {
             System.out.println("MITTAG :D");
-        }else if(workTime <= 16 && workTime >= 8){
+        } else if (workTime <= 16 && workTime >= 8) {
             System.out.println("Es ist während der Arbeitszeit");
-        }else{
+        } else {
             System.out.println("Geh oabeitn");
         }
 
